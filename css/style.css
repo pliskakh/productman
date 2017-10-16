@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+body{
+	background-color: #eeeeee;
+	color:  #303030;
+	font: 400 18px/1.34 'Raleway', sans-serif;
+	letter-spacing: 0.025em;
+	
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-header {
+	padding-top: 48px;
+}
+
+.ba-logo {
+	float: left;
+}
+
+.ba-logo img {
+	display: block;
+}
+
+.ba-nav {
+	float: right;
+	padding-top: 10px;
+}
+
+.ba-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.ba-menu li {
+	display: inline-block;
+}
+
+.ba-menu li:nth-child(n+2) {
+	padding-left: 50px;
+}
+
+.ba-menu a {
+	font: 400 18px/1.5 'Roboto', sans-serif;
+	color: #303030;
+	text-decoration: none;
+}
+
+.ba-menu a:hover {
+	color: #e10011;
+}
+
+.ba-slider {
+	padding-top: 103px;
+	width: 100%;
+}
+
+.ba-slider__text {
+	float: left;
+	width: 55%;
+	text-align: right;
+	font: 300 24px/1.5 'Roboto', sans-serif;
+}
+
+.ba-title {
+	font: 900 150px/1 'Raleway', sans-serif;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	margin: 0 55px 0 0;
+}
+
+.ba-slider p {
+	margin: 0;
+	padding: 24px 55px 12px 38px
+}
+
+.ba-view-link {
+	text-decoration: none;
+	color: #e10011;
+	font-weight: 700;
+	margin-right: 55px;
+}
+
+.ba-view-link:hover {
+	color: #303030;
+}
+
+.ba-slider__photo {
+	float: right;
+	width: 40%;
+}
+
+.ba-slider__controls {
+	clear: both;
+	padding: 60px 0 100px 0;
+	text-align: center;
+}
+
+.ba-arrows li {
+	display: inline-block;
+	padding: 0 2px;
+}
+
+.ba-arrows {
+	padding: 0;
+	margin: 0;
+}
+
+.ba-dots {
+	border-radius: 50%;
+	background-color: #303030;
+	width: 11px;
+	height: 11px;
+	display: block;
+}
+
+.ba-dots--active {
+	background-color: #e10011;
+}
+

@@ -141,7 +141,7 @@ textarea {
 
 .ba-slider__controls {
 	clear: both;
-	padding: 60px 0 100px 0;
+	padding: 60px 0 96px 0;
 	text-align: center;
 }
 
@@ -172,7 +172,7 @@ textarea {
 	font-family: Raleway, sans-serif;
 	text-align: center;
 	border-radius: 5px;
-	padding: 72px;	
+	padding: 82px 72px 38px;	
 }
 
 .ba-products__title {
@@ -185,7 +185,8 @@ textarea {
 }
 
 .ba-products__subtitle {
-	padding: 0 300px;
+	padding: 0 250px;
+	margin: 9px 0 70px;
 }
 
 
@@ -254,6 +255,11 @@ textarea {
 
 .ba-col-66 {
 	width: 66.7%;
+}
+
+
+.ba-footer {
+	margin-top: 30px;
 }
 
 
